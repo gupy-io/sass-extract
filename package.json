@@ -1,8 +1,11 @@
 {
-  "name": "sass-extract",
+  "name": "@gupy/sass-extract",
   "version": "4.0.0",
   "description": "Extract structured variables from sass files. Fast and accurate.",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://gpm-139818044667.d.codeartifact.us-east-1.amazonaws.com/npm/GupyPackageManager/"
+  },
   "scripts": {
     "peers": "npx npm-install-peers",
     "compile": "babel -d lib/ src/",
